@@ -1,0 +1,56 @@
+//values and variables
+rule 1 : while declaring variable the first character should be a letter or underscore or $. 
+-> : we cant use js reserved words.
+-> : spaces shoud not be used.
+-> : variables are case sensitive.
+
+//Data types
+6 types of data types:
+1.Undefined === "undefined"
+2.Boolean === "boolean"
+3.Number === "number"
+4.String === "string"
+5.BigInt === "bigint"
+6.Symbol === "symbol"
+
+//////////////////////////////////////////
+
+//Expressions and operators
+->isNaN (notanumber) is a method used to whether the given input is number or not
+
+->In 5+20 , 5 and 20 are operands and + is operator and -,*,/,% are also operators.
+
+->Types of perators
+1.Assignment operators:
+    An assignment operator assigns a value to its left operand, based on thevalue of its right operand.
+    The simple assignment operator is equalt (=)
+    
+2.Arthmetic operators:
+    An arithmetic operator takes numerical values
+    (either literals or variables) as their operands and returns a single numerical value.
+
+3.Comparison operators
+
+4.Logical operators
+
+5.String operators
+
+6.Conditional operators
+
+7.Exponential operators
+
+//Increament and decreament operators
+operator: x++ or ++x or x-- or --x
+
+
+
+
+
+
+
+
+
+
+
+
+
