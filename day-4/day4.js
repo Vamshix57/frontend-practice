@@ -6,8 +6,60 @@
 
 // console.log("Reamainder operator " + 11%2)
 
-//Increament and decreament operators
+//Increament operators
+// ->postfixOperator
+// var num = 15;
+// var newNum = num++;
+// console.log(num);
+// console.log(newNum);
+
+// ->prefixOperator
+// var num = 15;
+// var newNum = ++num;
+// console.log(num);
+// console.log(newNum);
+
+// //Decreament operators
+// ->postfixOperator
+// var num = 15;
+// var newNum = num--;
+// console.log(num);
+// console.log(newNum);
+
+// ->prefixOperator
+// var num = 15;
+// var newNum = --num;
+// console.log(num);
+// console.log(newNum);
+
 var num = 15;
-var newNum = num++;
+var newNum = num++ + 5;
 console.log(num);
-console.log(num++);
+console.log(newNum);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

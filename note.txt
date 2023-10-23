@@ -16,7 +16,7 @@ rule 1 : while declaring variable the first character should be a letter or unde
 //////////////////////////////////////////
 
 //Expressions and operators
-->isNaN (notanumber) is a method used to whether the given input is number or not
+->isNaN (not a number) is a method used to whether the given input is number or not
 
 ->In 5+20 , 5 and 20 are operands and + is operator and -,*,/,% are also operators.
 
@@ -39,8 +39,13 @@ rule 1 : while declaring variable the first character should be a letter or unde
 
 7.Exponential operators
 
-//Increament and decreament operators
-operator: x++ or ++x or x-- or --x
+//Increament operators: x++ or ++x 
+    Postfix(x++):The postfix operator increaments and returns the value after increamenting
+    Prefix(++x):The prefix operator increaments and returns the value before increamenting
+
+//Decreament operators: x-- or --x
+    Postfix(X--):The postfix oparator decreaments and returns the value after decreamenting
+    Prefix(--X):the prefix oparator decreaments and returns the value before decreamenting
 
 
 
