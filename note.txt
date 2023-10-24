@@ -29,11 +29,16 @@ rule 1 : while declaring variable the first character should be a letter or unde
     An arithmetic operator takes numerical values
     (either literals or variables) as their operands and returns a single numerical value.
 
-3.Comparison operators
+3.Comparison operators:
+    (<,>,=,!=,>=,<=) this oparator compares the operands and returns a logical value based on the comparision is true 
 
-4.Logical operators
+4.Logical operators:
+    (and , or, not)logical operators are used with Boolean value and returns Boolean values and(&&)= if all the operands are true otherwise its false
+    or(||) = Oparand is true if one or more of its operands are true .
+    not(!) = takes true and returns false and viseversa 
 
-5.String operators
+5.String operators:
+    The concatenation oparator(+), concatenates two strings and returns the union of two strings
 
 6.Conditional operators
 
