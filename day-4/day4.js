@@ -61,8 +61,8 @@ var b = 10;
 // console.log(a <= b);
 
 //Logical operators
-var a = 30;
-var b = 20;
+// var a = 30;
+// var b = 20;
 
 //Logical AND (&&)
 
@@ -78,7 +78,15 @@ var b = 20;
 // console.log(!((a>0) || (b<0)));
 // console.log(!false);
 
+//String concatenation operator
 
+// console.log("Hello world");
+
+// console.log("Hello " + "world");
+
+// var name = "vamshi"
+
+// console.log(name + " krishna");
 
 
 

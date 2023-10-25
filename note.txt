@@ -42,7 +42,8 @@ rule 1 : while declaring variable the first character should be a letter or unde
 
 6.Conditional operators
 
-7.Exponential operators
+7.Exponential operators:
+     ex=3**5, output will be 3x3x3x3x3
 
 //Increament operators: x++ or ++x 
     Postfix(x++):The postfix operator increaments and returns the value after increamenting
@@ -52,7 +53,24 @@ rule 1 : while declaring variable the first character should be a letter or unde
     Postfix(X--):The postfix oparator decreaments and returns the value after decreamenting
     Prefix(--X):the prefix oparator decreaments and returns the value before decreamenting
 
+//Difference between == and ===  
+    '==' : it only checks the value
+    '===' : it checks value and datatype of the value
 
+/////////////////////////////////////////////
+
+//Control statements & Loops
+
+1.If Else:
+    The if statement executes a statement if a specified condition is true or false, if the condition is false,another statement will be executed.
+    
+2.Switch Statement: 
+3.While Loops:
+4.Do-While lop:
+5.For loop :
+6.For In Loop:
+7.For Of Loop:
+8.Conditional operator:
 
 
 
