@@ -63,14 +63,33 @@ rule 1 : while declaring variable the first character should be a letter or unde
 
 1.If Else:
     The if statement executes a statement if a specified condition is true or false, if the condition is false,another statement will be executed.
-    
+  
+//We have 5 falsy values in java script
+-> 0, "", undefined, null, NaN, false
+
 2.Switch Statement: 
+
+//Break Tag
+    ->If the condition is fulfilled ,then it terminates the switch case.
+    ->It terminnaes the current loop, switch, or label statements and transfers, the program control to the statement following the terminated statement.
+
 3.While Loops:
+    The while statements creates a loop that executes a specified statement as long as the condition evaluates to true.
+    ->In while loop 1st it checks the condition and then gives the output.
+
+//Block scope
+    It gives output when the condition is fulfilled, if the condition is not fulfilled it stops there itself and no ooutput is given.
+
 4.Do-While lop:
+    In Do while loop 1st it gives output and then checks the condition.
+
 5.For loop :
+
+
 6.For In Loop:
 7.For Of Loop:
-8.Conditional operator:
+8.Conditional (Ternary) operator:
+    It is the only operator that takes three operands 
 
 
 
