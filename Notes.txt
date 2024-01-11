@@ -1,0 +1,180 @@
+
+var myName = 'Vamshi'
+var -> variable(key)
+myName -> Name of the variable
+'Vamshi' -> Value
+
+Rules :
+->The first  character  must be a letter or an underscore or an dollar, we cant use a number as teh first character.
+->We cant use spaces ans other characters.
+->variable names are case sensitive.
+->There  is no limit for the variable name.
+->We cant use js reserved words, like var,const etc.
+
+Data Types in javascript:
+->Undefined
+->Boolean
+->Number
+->String
+->BigInt
+->Symbol
+
+Difference b/w Null and Undefined
+->Null : Here we will define a variable and aasssign null as a value.  There is no use of it.
+
+->undefined : Here we define a variable, but we dont assign any value.
+
+What is NaN?
+->If we try to subtract two strings ,it shows its Nan-not a number
+->isNaN (not a number) is a method used to whether the given input is number or not.
+
+//Expressions And operators
+
+->In 5+7 , 5 and 7 are operands and + is operator and -,*,/,% are also operators.
+->Combination of operand and operator is know as "Expression"
+
+Six Types Of Operators :
+->Assignment Operators
+->Arthmetic Operators
+->Comparison Operators
+->Logical Operators
+->String Operators
+->Conditional(Ternary) Operators
+
+1.Assignment Operators: An assignment operator assigns a value to its left operand, based on thevalue of its right operand.
+The simple assignment operator is equalto (=)
+
+2.Arthmetic Operators : An arithmetic operator takes numerical values, (either literals or variables) as their operands and returns a single numerical value.
+
+//Increament operators: x++ or ++x 
+    Postfix(x++):The postfix operator increaments and returns the value after increamenting
+    Prefix(++x):The prefix operator increaments and returns the value before increamenting
+
+//Decreament operators: x-- or --x
+    Postfix(X--):The postfix oparator decreaments and returns the value after decreamenting
+    Prefix(--X):the prefix oparator decreaments and returns the value before decreamenting
+
+3.Comparison operators:
+    (<,>,=,!=,>=,<=) this oparator compares the operands and returns a logical value based on the comparision is true 
+
+4.Logical operators:
+    (and , or, not)logical operators are used with Boolean value and returns Boolean values.
+    
+    (&&)=operand is true if all the operands are true, otherwise its false.
+
+    or(||) = Oparand is true if one or more of its operands are true.
+    
+    not(!) = takes true and returns false and viseversa 
+
+
+5.String operators:
+    The concatenation oparator(+), concatenates two strings and returns the union of two strings
+
+7.Exponential operators:
+     ex=3**5, output will be 3x3x3x3x3
+
+//Difference between == and ===  
+    '==' : it only checks the value
+    '===' : it checks value and datatype of the value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /////////////////////////////////////////////
+
+//Control statements & Loops
+
+1.If Else:
+    The if statement executes a statement if a specified condition is true or false, if the condition is false,another statement will be executed.
+  
+//We have 5 falsy values in java script
+-> 0, "", undefined, null, NaN, false
+
+2.Switch Statement: 
+
+//Break Tag
+    ->If the condition is fulfilled ,then it terminates the switch case.
+    ->It terminnaes the current loop, switch, or label statements and transfers, the program control to the statement following the terminated statement.
+
+3.While Loops:
+    The while statements creates a loop that executes a specified statement as long as the condition evaluates to true.
+    ->In while loop 1st it checks the condition and then gives the output.
+
+//Block scope
+    It gives output when the condition is fulfilled, if the condition is not fulfilled it stops there itself and no ooutput is given.
+
+4.Do-While lop:
+    In Do while loop 1st it gives output and then checks the condition.
+
+5.For loop :
+
+
+6.For In Loop:
+7.For Of Loop:
+8.Conditional (Ternary) operator:
+    It is the only operator that takes three operands 
+
+////////////////////////////////////////////////
+
+//Fuctions in java script
+
+->A javascript function is a block of code designed to perform a particular task.
+
+->Before we use a function, we have to define it.we have to write Fuction before declaring it.
+Syntax : 
+    function functionName(){
+    //Statement
+    }
+
+//Calling Functions :
+->Defining a function does not execute it, a javascript function is executed when "something" invokes  it (Calls it)
+
+//Function parameters VS Function Arguments
+->Function parameters are the names listed in the functions defination.These are written in parenthesis while defining a function
+->Function arguments are the real values passed to the function.These are written in parenthesis while Calling back a function.
+
+//Why functions???
+->Once u define the code, u can use it as many times as u want ,we can use the same code many times with different arguments to produce different results
+
+//Fuction Expressions
+->Fuction expression simply means, creating a function and put it into the variable.
